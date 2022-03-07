@@ -1,0 +1,29 @@
+{
+  "name": "express-ts-ddd",
+  "version": "1.0.0",
+  "description": "An Express/NodeJs Typescript Application Applying Domain Driven Design (DDD) with Test Driven Development (TDD)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-expertz/express-ts-ddd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-expertz/express-ts-ddd/issues"
+  },
+  "homepage": "https://github.com/dev-expertz/express-ts-ddd#readme",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.7.0"
+  }
+}
