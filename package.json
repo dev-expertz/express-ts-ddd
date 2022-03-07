@@ -4,7 +4,7 @@
   "description": "An Express/NodeJs Typescript Application Applying Domain Driven Design (DDD) with Test Driven Development (TDD)",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit"
+    "test": "jest --watchAll --forceExit"
   },
   "repository": {
     "type": "git",
