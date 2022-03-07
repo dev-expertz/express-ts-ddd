@@ -11,7 +11,7 @@
     "url": "git+https://github.com/dev-expertz/express-ts-ddd.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dev Expertz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dev-expertz/express-ts-ddd/issues"
@@ -22,8 +22,28 @@
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "jest": "^27.5.1",
+    "jest-watch-typeahead": "^1.0.0",
     "ts-jest": "^27.1.3",
     "ts-node": "^10.7.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2018
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "rules": {
+      "eqeqeq": "warn"
+    }
   }
 }
