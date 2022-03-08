@@ -18,10 +18,14 @@
   },
   "homepage": "https://github.com/dev-expertz/express-ts-ddd#readme",
   "dependencies": {
-    "typescript": "^4.6.2"
+    "mongoose": "^6.2.4",
+    "typescript": "^4.6.2",
+    "uniqid": "^5.4.0"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
+    "@types/mongoose": "^5.11.97",
+    "@types/uniqid": "^5.3.2",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
